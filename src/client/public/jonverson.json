@@ -1,0 +1,128 @@
+{
+  "name": "Jon Verson",
+  "title": "Web Developer",
+  "email": "jonverson@gmail.com",
+  "statement": "I am a motivated and accomplished full stack web developer who has over a decade of experience in open source technologies. I am very passionate about frontend development and design. I enjoy working with a team of engineers and stakeholders who share the same values and motivation for developing applications that improves the user experience.",
+  "positions": [{
+    "title": "Senior Web Developer",
+    "company": "SolidFire, now part of NetApp",
+    "timeFrame": "Feb 2016 - Current",
+    "duties": [{
+      "item": "Developed a backend system in RoR and PostgreSQL for returning API endpoints."
+    }, {
+      "item": "Developed a frontend system in NodeJS that ingests API endpoints."
+    }, {
+      "item": "Created a custom CMS tool for creating landing pages on the fly."
+    }, {
+      "item": "Developed a CMS for the NetApp Cloud team to manage and deploy new web pages."
+    }, {
+      "item": "Create and maintain VMs that power services on the NetApp corporate website."
+    }]
+  }, {
+    "title": "Senior Creative Techologist",
+    "company": "SolidFire",
+    "timeFrame": "Dec 2014 - Feb 2016",
+    "duties": [{
+      "item": "Responsible for developing and maintaining the SolidFire public facing web site."
+    }, {
+      "item": "Designed and developed a custom CMS using RoR and MongoDB for the SolidFire website."
+    }, {
+      "item": "Created the framework and infrastructure for the SolidFire international web presence."
+    }, {
+      "item": "Utilize API's services and integrations to allow the marketing team to do more faster with our rails app."
+    }, {
+      "item": "Integrated and maintain all the services needed for the full stack SolidFire rails app."
+    }]
+  }, {
+    "title": "Senior Web Developer",
+    "company": "SendGrid",
+    "timeFrame": "Feb 2011 - Dec 2014",
+    "duties": [{
+      "item": "Develop and update features on the frontend of the SendGrid website."
+    }, {
+      "item": "Develop internal API's/services for other teams to utiltize marketings code base."
+    }, {
+      "item": "Create responsive landing pages and email templates."
+    }, {
+      "item": "Implemented and developed the SendGrid affiliate program."
+    }, {
+      "item": "Contribute to multiple repositories and code bases across the company."
+    }]
+  }, {
+    "title": "New Media Strategy Manager",
+    "company": "New Frontier Media",
+    "timeFrame": "Jun 2010 - Feb 2011",
+    "duties": [{
+      "item": "Create social media campaigns for new web sites prior to launch."
+    }, {
+      "item": "Fulfill all Scrum Master responsibilities in the New Media Group."
+    }, {
+      "item": "Manage four employees in the New Media Group."
+    }, {
+      "item": "Add new features and updates to websites."
+    }]
+  }, {
+    "title": "Web Developer",
+    "company": "New Frontier Media",
+    "timeFrame": "Nov 2004 - Jun 2011",
+    "duties": [{
+      "item": "Create database driven websites using PHP, Rails, JavaScript, CSS and HTML."
+    }, {
+      "item": "Developed a backend CMS system for updating all the company web sites."
+    }, {
+      "item": "Updated and added new features to all the web properties in the company."
+    }, {
+      "item": "Contribute and strategize with the New Media team on new web site products."
+    }]
+  }, {
+    "title": "Web Developer",
+    "company": "Streamline Interactive Communications",
+    "timeFrame": "Jan 2002 - Dec 2002",
+    "duties":[]
+  }, {
+    "title": "Web Developer",
+    "company": "Streamline Interactive Communications",
+    "timeFrame": "Jan 2002 - Dec 2002",
+    "duties":[]
+  }],
+  "skills": [{
+    "title": "Ruby",
+    "color": "skill-color-01"
+  }, {
+    "title": "JavaScript",
+    "color": "skill-color-02"
+  }, {
+    "title": "PHP",
+    "color": "skill-color-03"
+  }, {
+    "title": "JQuery",
+    "color": "skill-color-04"
+  }, {
+    "title": "ReactJS",
+    "color": "skill-color-05"
+  }, {
+    "title": "NodeJS",
+    "color": "skill-color-06"
+  }, {
+    "title": "Ruby on Rails",
+    "color": "skill-color-07"
+  }, {
+    "title": "Jekyll",
+    "color": "skill-color-01"
+  }, {
+    "title": "CSS/SASS",
+    "color": "skill-color-02"
+  }, {
+    "title": "PostgreSQL",
+    "color": "skill-color-03"
+  }, {
+    "title": "MySQL",
+    "color": "skill-color-04"
+  }, {
+    "title": "MongoDB",
+    "color": "skill-color-05"
+  }, {
+    "title": "Git",
+    "color": "skill-color-06"
+  }]
+}

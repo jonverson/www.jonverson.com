@@ -1,0 +1,291 @@
+<html>
+  <head>
+    <title>Jon Verson</title>
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+    <style>
+      body {
+        padding: 0;
+        margin: 0;
+      }
+
+      body, h1, h2, h3, h4, div, span, p {
+        font-family: 'Source Sans Pro', sans-serif;
+      }
+
+      .site-hero {
+        width:100%;
+        position: fixed;
+        float: left;
+        background: url('public/laptop.jpg') no-repeat;
+        min-height: 580px;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        overflow: hidden;
+      }
+
+      .site-hero p.description {
+        color: #D8D8D8;
+        width: 60%;
+        padding: 10px 0;
+        margin: 0 auto;
+        background-color: #4A4A4A;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -khtml-border-radius: 5px;
+        border-radius: 5px;
+        line-height: 24px;
+        font-size: 16px;
+        font-weight: 300;
+        text-align: center;
+      }
+
+      .site-hero p.description span {
+        display: inline-block;
+        width: 95%;
+        text-align: left;
+      }
+
+      .site-hero .title {
+        color: #FFF;
+        width: 100%;
+        max-width: 300px;
+        padding: 10px 0;
+        margin: 0 auto;
+        background-color: #4A4A4A;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -khtml-border-radius: 5px;
+        border-radius: 5px;
+        line-height: 24px;
+        font-size: 16px;
+        font-weight: 300;
+        margin-top: 70px;
+        margin-bottom: 50px;
+        text-align: center;
+      }
+
+      h1, h2 {
+        color: #FFF;
+        text-align: center;
+      }
+
+      .site-container {
+        max-width: 1140px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0 20px;
+      }
+
+      h1 {
+        font-size: 44px;
+        font-weight: 500;
+        margin-bottom: 25px;
+      }
+
+      h2 {
+        font-size: 34px;
+        font-weight: 300;
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+
+      .site-resume {
+        width:100%;
+        position: relative;
+        float: left;
+        background-color: #444444;
+        margin-top: 500px;
+      }
+
+      .site-resume h2 {
+        color: #FFF;
+        margin: 50px 0;
+      }
+
+      .employment {
+        background-color: #4A4A4A;
+        width: 100%;
+        float: left;
+        padding: 10px 0;
+      }
+
+      .employment h3 {
+        color: #FFF;
+        font-weight: 200;
+        font-size: 22px;
+        width: 90%;
+        float: left;
+        margin: 0;
+      }
+
+      .employment-left {
+        width: 60%;
+        float: left;
+      }
+
+      .employment-right {
+        width: 25%;
+        float: left;
+        margin-left: 10%;
+        margin-right: 20px;
+      }
+
+      .employment-right h3 {
+        color: #FFF;
+        margin: 0;
+      }
+
+      span.skill {
+        width: 100%;
+        display: inline-block;
+        color: #FFF;
+        margin-top: 25px;
+      }
+
+      .skill-color-01 {
+        border-bottom: 6px solid #6ca338;
+      }
+
+      .skill-color-02 {
+        border-bottom: 6px solid #4ca5d0;
+      }
+
+      .skill-color-03 {
+        border-bottom: 6px solid #a35349;
+      }
+
+      .skill-color-04 {
+        border-bottom: 6px solid #ffbc38;
+      }
+
+      .skill-color-05 {
+        border-bottom: 6px solid #e82c0c;
+      }
+
+      .skill-color-06 {
+        border-bottom: 6px solid #d3cdcc;
+      }
+
+      .skill-color-07 {
+        border-bottom: 6px solid #327ea3;
+      }
+
+      .arrow-down-wrapper {
+        width: 5%;
+        float: left;
+        margin-left: 2%;
+      }
+
+      .arrow-down {
+        color: #FFF;
+        padding: 4px;
+        -moz-border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -khtml-border-radius: 50%;
+        border-radius: 50%;
+        background-color: #4ca5d0;
+        width: 10px;
+        height: 10px;
+        margin-right: 10px;
+        margin-top: 3px;
+        float: right;
+      }
+
+      .arrow-down-item {
+        float: left;
+        width: 100%;
+        margin-top: -9px;
+        margin-left: 3px;
+        font-size: 20px;
+      }
+
+      .employment-item {
+        width: 100%;
+        float: left;
+        margin-top: 25px;
+      }
+
+      .employment-company {
+        width: 90%;
+        float: left;
+        margin-right: 2%;
+        color: #FFF;
+      }
+
+      .employment-duration {
+        display: inline-block;
+        color: #FFF;
+        font-size: 16px;
+        font-weight: 200;
+        float: right;
+      }
+
+      .employment-company h4 {
+        margin: 0;
+        color: #FFF;
+        font-size: 18px;
+        font-weight: 200;
+        display: inline-block;
+      }
+
+      .employment-company ul {
+        margin-top: 10px;
+        padding-left: 18px;
+        color: #FFF;
+      }
+
+      .employment-hr-wrapper {
+        width: 100%;
+        float: left;
+        margin: 25px 0 10px 0;
+      }
+
+      .employment-dashed-border-bottom {
+        width: 80%;
+        position: relative;
+        border-bottom: solid 1px #A9A9A9;
+        height: 5px;
+        margin: 0 auto;
+      }
+
+      .margin-bottom-seventy {
+        margin-bottom: 70px;
+      }
+
+      .site-skills {
+        width:100%;
+        position: relative;
+        float: left;
+        background-color: #797979;
+      }
+
+      @media(max-width: 768px) {
+        .employment-left {
+          width: 100%;
+        }
+
+        .employment-right {
+          width: 100%;
+          margin: 0 0 50px 0;
+        }
+
+        .site-resume {
+          margin-top: 580px;
+        }
+
+        .site-hero p.description {
+          width: 100%;
+          padding-left: 0;
+        }
+      }
+
+    </style>
+  </head>
+  <body>
+      <div id="app"></div>
+      
+      <script src="public/bundle.js" type="text/javascript"></script>
+  </body>
+</html>

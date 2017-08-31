@@ -1,0 +1,29 @@
+{
+  "name": "jonverson_react",
+  "version": "1.0.0",
+  "description": "Jon Verson site in react",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack -d --watch",
+    "build": "webpack -p",
+    "dev-server": "webpack -d --watch | nodemon ./server.js localhost 8080",
+    "dev-client": "webpack-dev-server --port 3000"
+  },
+  "author": "Jon Verson",
+  "license": "ISC",
+  "dependencies": {
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2016": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "express": "^4.15.4",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "nodemon": "^1.11.0",
+    "webpack": "^3.5.5"
+  }
+}
