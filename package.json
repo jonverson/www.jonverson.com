@@ -10,7 +10,7 @@
   "scripts": {
     "dev": "webpack -d --watch",
     "build": "webpack -p",
-    "dev-server": "webpack -d --watch | nodemon ./server.js localhost 8080",
+    "dev-server": "webpack -d --watch | nodemon ./server.js",
     "dev-client": "webpack-dev-server --port 3000"
   },
   "author": "Jon Verson",
