@@ -4,19 +4,19 @@
   "email": "jonverson@gmail.com",
   "statement": "I am a motivated and accomplished full stack web developer who has over a decade of experience in open source technologies. I am very passionate about frontend development and design. I enjoy working with a team of engineers and stakeholders who share the same values and motivation for developing applications that improves the user experience.",
   "positions": [{
-    "title": "Senior Web Developer",
-    "company": "SolidFire, now part of NetApp",
+    "title": "Full Stack Engineer",
+    "company": "NetApp",
     "timeFrame": "Feb 2016 - Current",
     "duties": [{
-      "item": "Developed a backend system in RoR and PostgreSQL for returning API endpoints."
+      "item": "Developed a headless CMS in RoR, VueJS and PostgreSQL that allows users to create web pages and microsites on the fly."
     }, {
-      "item": "Developed a frontend system in NodeJS that ingests API endpoints."
+      "item": "Developed a RESTful API service using NodeJS and PostgreSQL that returns API endpoints for the frontend."
     }, {
-      "item": "Created a custom CMS tool for creating landing pages on the fly."
+      "item": "Developed a frontend system in NodeJS and VueJS that ingests RESTful API endpoints."
     }, {
-      "item": "Developed a CMS for the NetApp Cloud team to manage and deploy new web pages."
+      "item": "Setup Nginx proxy servers to run services on the netapp.com domain."
     }, {
-      "item": "Create and maintain VMs that power services on the NetApp corporate website."
+      "item": "Create and maintain VM’s that power services on the NetApp corporate website."
     }]
   }, {
     "title": "Senior Creative Techologist",
@@ -80,9 +80,9 @@
     "timeFrame": "Jan 2002 - Dec 2002",
     "duties":[]
   }, {
-    "title": "Web Developer",
-    "company": "Streamline Interactive Communications",
-    "timeFrame": "Jan 2002 - Dec 2002",
+    "title": "Streaming Project Manager",
+    "company": "Raindance Communications",
+    "timeFrame": "August 1998 - July 2001",
     "duties":[]
   }],
   "skills": [{
@@ -92,13 +92,7 @@
     "title": "JavaScript",
     "color": "skill-color-02"
   }, {
-    "title": "PHP",
-    "color": "skill-color-03"
-  }, {
-    "title": "JQuery",
-    "color": "skill-color-04"
-  }, {
-    "title": "ReactJS",
+    "title": "VueJS",
     "color": "skill-color-05"
   }, {
     "title": "NodeJS",
@@ -112,6 +106,9 @@
   }, {
     "title": "CSS/SASS",
     "color": "skill-color-02"
+  }, {
+    "title": "JQuery",
+    "color": "skill-color-04"
   }, {
     "title": "PostgreSQL",
     "color": "skill-color-03"
